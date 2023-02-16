@@ -115,6 +115,10 @@ form > button.login {
     margin: 5px 0px;
 }
 
+form >button.login:hover {
+    background-color: #2d6462;
+}
+
 form > button.password-recovery {
     border: #53aaa7 solid 1px;
     border-radius: 5px;
@@ -123,6 +127,10 @@ form > button.password-recovery {
     color: #2d6462;
     width: 100%;
     background-color: transparent;
+}
+
+form > button.password-recovery:hover {
+    background-color: #53aaa7;
 }
 
 button {
