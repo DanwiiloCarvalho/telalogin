@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*Tablets*/
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    .login-area {
+        width: 80vw;
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .login-area > div.image {
+        /* width: 47%; */
+        height: 100%;
+        border-bottom-left-radius: inherit;
+        border-top-right-radius: 0px;
+        flex: 1;
+    }
+
+    div#form {
+        flex: 2;
+    }
+
+    div#form > p {
+        text-align: left;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 992px) {
+    .login-area {
+        width: 950px;
+        height: 350px;
+        flex-direction: row-reverse;
+    }
+
+    .login-area > div.image {
+        flex: 1;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+
+    div#form {
+        flex: 1;
+    }
+
+    div#form > h1 {
+        font-size: 2em;
+        margin-top: ;
+    }
+
+    div#form > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+}
